@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- ////// reset css ////// -->
     <link rel="stylesheet" href="./styles/reset.css">
     <!-- ////// fonts ////// -->
-     <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
     <!-- ////// tailwind v4 ////// -->
     <link rel="stylesheet" href="./src/output.css">
     <title>Travel Site</title>
 </head>
-<body>
 
+<body>
+    <header class="header w-full bg-[url(./images/Frame.png)]">
+        <div class="container w-9/12 mx-auto">
+            <div class="menu w-full flex items-center text-[15px]">
+                <div class="menu-logo">
+                    <img src="./images/Link → logo-1.svg.png" alt="picture" class="menu__logo">
+                </div>
+                <ul class="menu-links flex">
+                    <li class="menu-links__item"><a href="#" class="menu-links__link menu-links__link--active">Home</a>
+                    </li>
+                    <li class="menu-links__item"><a href="#" class="menu-links__link">Tour</a></li>
+                    <li class="menu-links__item"><a href="#" class="menu-links__link">Destination</a></li>
+                    <li class="menu-links__item"><a href="#" class="menu-links__link">Activities</a></li>
+                    <li class="menu-links__item"><a href="#" class="menu-links__link">Pages</a></li>
+                    <li class="menu-links__item"><a href="#" class="menu-links__link">Contact</a></li>
+                </ul>
+                <ul class="menu-login flex">
+                    <li class="menu-login__item"><a href="#" class="menu-login__link">USD</a></li>
+                    <li class="menu-login__item"><a href="#" class="menu-login__link">Help</a></li>
+                    <li class="menu-login__item"><a href="#" class="menu-login__link">Sign up</a></li>
+                    <li class="menu-login__item"><a href="#" class="menu-login__link menu-login__link--active">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
 </body>
+
 </html>
