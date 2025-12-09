@@ -14,14 +14,15 @@
 </head>
 
 <body>
-    <header class="header w-full bg-[url(./images/Frame.png)]">
+    <header class="header w-full bg-[url(/images/Frame.png)] bg-cover pb-64">
         <div class="container w-9/12 mx-auto">
-            <div class="menu w-full flex items-center justify-between mt-4 font-[inter-regular] text-[15px]">
+            <div class="menu w-full flex items-center justify-between pt-5 font-[inter-regular] text-[15px]">
                 <ul class="menu-links flex justify-between w-7/12 items-center">
                     <div class="menu-logo">
                         <img src="./images/Link → logo-1.svg.png" alt="picture" class="menu__logo">
                     </div>
-                    <li class="menu-links__item"><a href="#" class="menu-links__link menu-links__link--active text-[#EB662B]">Home</a>
+                    <li class="menu-links__item"><a href="#"
+                            class="menu-links__link menu-links__link--active text-[#EB662B]">Home</a>
                     </li>
                     <li class="menu-links__item"><a href="#" class="menu-links__link">Tour</a></li>
                     <li class="menu-links__item"><a href="#" class="menu-links__link">Destination</a></li>
@@ -33,9 +34,39 @@
                     <li class="menu-login__item"><a href="#" class="menu-login__link">USD</a></li>
                     <li class="menu-login__item"><a href="#" class="menu-login__link">Help</a></li>
                     <li class="menu-login__item"><a href="#" class="menu-login__link">Sign up</a></li>
-                    <li class="menu-login__item"><a href="#" class="menu-login__link menu-login__link--active border border-[#05073C] rounded-3xl px-4 py-2">Login</a>
+                    <li class="menu-login__item"><a href="#"
+                            class="menu-login__link menu-login__link--active border border-[#05073C] rounded-3xl px-4 py-2">Login</a>
                     </li>
                 </ul>
+            </div>
+        </div>
+        <div class="container mx-auto w-7/12">
+            <div class="header-title">
+                <h1 class="header__title text-6xl font-[inter-semi-bold] text-center pt-24 px-14 leading-20 text-transparent bg-clip-text bg-linear-to-r/hsl from-[#EE8C61] to-[#4C43C4]">Life Is Adventure Make The Best Of It</h1>
+            </div>
+            <div class="header-search-box flex w-full justify-between bg-white rounded-[200px] px-5 py-3 mt-12">
+                <div class="search-where w-3/12 flex items-center gap-1.5">
+                    <div class="search-symbol size-12 rounded-[50%] bg-[#EB662B0D]"></div>
+                    <div class="search-info">
+                        <h4 class="search-name font-[inter-medium] text-[15px]">Where</h4>
+                        <p class="search-desc pt-1 text-sm font-[inter-regular] text-[#717171]">Search destinations</p>
+                    </div>
+                </div>
+                <div class="search-where w-3/12 flex items-center gap-1.5">
+                    <div class="search-symbol size-12 rounded-[50%] bg-[#EB662B0D]"></div>
+                    <div class="search-info">
+                        <h4 class="search-name font-[inter-medium] text-[15px]">When</h4>
+                        <p class="search-desc pt-1 text-sm font-[inter-regular]">February 05 ~ March 14</p>
+                    </div>
+                </div>
+                <div class="search-where w-3/12 flex items-center gap-1.5">
+                    <div class="search-symbol size-12 rounded-[50%] bg-[#EB662B0D]"></div>
+                    <div class="search-info">
+                        <h4 class="search-name font-[inter-medium] text-[15px]">Tour Type</h4>
+                        <p class="search-desc pt-1 text-sm font-[inter-regular] text-[#717171]">All Tour</p>
+                    </div>
+                </div>
+                <div class="search-symbol size-14 rounded-[50%] bg-[#EB662B]"></div>
             </div>
         </div>
     </header>
